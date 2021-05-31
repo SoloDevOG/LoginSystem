@@ -1,4 +1,4 @@
 # LoginSystem
 Simple Python Login System
 
-**super simple python login**
+**configuire the file and your good to go, have it set to raw**
