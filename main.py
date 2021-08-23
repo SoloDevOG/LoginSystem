@@ -2,6 +2,7 @@
 
 import requests, time
 import os
+import sys
 pastebin = 'https://pastebin.com/raw/jB285Hxc'
 
 username = input('Enter Your Username > ')
@@ -16,6 +17,7 @@ for line in response.split('\n'):
     print('Correct password and username')
     start()
 print('Invalid password or username.')
+sys.exit()
 
 # Your Code Below
 
